@@ -17,27 +17,25 @@ manually or via ``pkgng``.
 * devel/libevent2
 * ftp/curl
 * devel/glib20
-* misc/ossp-uuid
 * databases/sqlite3
 * devel/jansson
 * lang/vala
 * devel/cmake
 * archivers/libarchive
-* devel/py-simplejson (removed in furture release)
- 
+
 GUI
 * devel/qt4
 
 ```bash
-#portmaster devel/autoconf devel/automake textproc/intltool textproc/gsed \
-devel/libtool devel/libevent2 ftp/curl devel/glib20 misc/ossp-uuid databases/sqlite3 \
-devel/jansson lang/vala devel/cmake devel/py-simplejson archivers/libarchive
+portmaster devel/autoconf devel/automake textproc/intltool textproc/gsed \
+devel/libtool devel/libevent2 ftp/curl devel/glib20 databases/sqlite3 \
+devel/jansson lang/vala devel/cmake archivers/libarchive
 ```
 For a fresh PkgNG users,
 
 ```bash
-#pkg install autoconf automake intltool gsed libtool libevent2 curl \
-  glib20 ossp-uuid sqlite3 jansson vala cmake py-simplejson libarchive
+pkg install autoconf automake intltool gsed libtool libevent2 curl \
+  glib20 sqlite3 jansson vala cmake libarchive
 ```
 
 #### Building
